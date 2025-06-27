@@ -56,8 +56,8 @@ print(response.text)
 ###
 
 # Define the path to your downloaded model
-model_path = "/home/nick/software/en_US-lessac-medium.onnx" 
-config_path = "/home/nick/software/en_US-lessac-medium.onnx.json"
+model_path = "/home/nick/software/audiobook/en_US-lessac-medium.onnx" 
+config_path = "/home/nick/software/audiobook/en_US-lessac-medium.onnx.json"
 
 # Load the Piper voice model
 voice = PiperVoice.load(model_path, config_path)
@@ -68,8 +68,6 @@ output_wav_file = "text.wav"
 # Synthesize speech and save to WAV file
 with wave.open(output_wav_file, "wb") as wav_file:
     audio = voice.synthesize(response.text, wav_file)
-
-print(f"Speech synthesized and saved to {output_wav_file}")
 
 os.system("aplay text.wav")
 
