@@ -1,3 +1,5 @@
 *.jpg
 *.wav
 *.onnx*
+api_key.sh
+
