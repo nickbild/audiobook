@@ -2,5 +2,6 @@
 
 **Details coming soon!**
 
-![](https://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/logo_sm.jpg)
+PageParrot turns any book into an audiobook in seconds.
 
+![](https://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/logo_sm.jpg)
