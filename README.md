@@ -1,13 +1,11 @@
 # PageParrot
 
-**Details coming soon!**
-
 PageParrot turns any book into an audiobook in seconds.
 
 ![](https://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/logo_sm.jpg)
 
 **Check out the video on YouTube:**
-<a href="https://www.youtube.com/watch?v=W-vDoOevl00">![](ttps://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/placing_book.png)</a>
+<a href="https://www.youtube.com/watch?v=W-vDoOevl00">![](https://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/placing_book.png)</a>
 
 ## How It Works
 
