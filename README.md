@@ -8,6 +8,8 @@ PageParrot turns any book into an audiobook in seconds.
 
 ## How It Works
 
+PageParrot is powered by a Raspberry Pi Zero 2 W single-board computer and a USB webcam. It runs a [Python script](https://github.com/nickbild/audiobook/blob/main/read_page.py) that waits for a button press, then snaps a picture of the book with the webcam. The image is then sent to Google’s Gemini 2.5 Flash large language model, along with a prompt instructing it to tell me all the text contained in the image. The text it returns is then fed into Piper to synthesize speech, which is played on a Bluetooth speaker.
+
 ## Media
 
 ![](https://raw.githubusercontent.com/nickbild/audiobook/refs/heads/main/media/hardware_close_sm.jpg)
